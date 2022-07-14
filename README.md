@@ -29,7 +29,16 @@ So finite fields are probably not the best choice for this setting. On the other
 Thus, if $a_n$ and $b_n$ contain elements in some extension $E$ of $Q$, and $r\in E$, then Alice could check $\phi(b_n)(r) = \phi(a_n)(r)$ to determine (with high probability) if $a_n = b_n$ or not.
 
 ## Running
+~~~
+git clone https://github.com/a-rust/comm_complexity_problem.git
+cd comm_complexity_problem
+~~~
 
+Initialize two or more Characters to run the protocol, and call the compare function.
+
+~~~
+cargo run
+~~~
 
 ## Example
 ~~~
